@@ -1,0 +1,19 @@
+Sampling Type,Model,Test Accuracy,F1 Score,Best Hyperparameters,Tuning
+Raw Data,SVM,0.8334473324213406,0.7247032221594121,,Untuned
+Raw Data,Decision Tree,0.8515731874145007,0.7676659528907923,,Untuned
+Raw Data,Random Forest,0.8782489740082079,0.8043956043956044,,Untuned
+Under-sampled Data,SVM,0.808982683982684,0.8260226712666338,,Untuned
+Under-sampled Data,Decision Tree,0.8165584415584416,0.8146528157463094,,Untuned
+Under-sampled Data,Random Forest,0.8609307359307359,0.8639491794600318,,Untuned
+Over-sampled Data,SVM,0.84025,0.8525951557093425,,Untuned
+Over-sampled Data,Decision Tree,0.88675,0.8862094951017332,,Untuned
+Over-sampled Data,Random Forest,0.9075,0.9090462143559489,,Untuned
+Raw Data,SVM,0.8690150478796169,0.7903667214012041,"{'C': 10, 'kernel': 'rbf'}",Tuned
+Raw Data,Decision Tree,0.8826949384404925,0.8154922001075847,"{'criterion': 'gini', 'max_depth': 10}",Tuned
+Raw Data,Random Forest,0.8926128590971272,0.8253615127919911,"{'max_depth': 10, 'n_estimators': 200}",Tuned
+Under-sampled Data,SVM,0.8479437229437229,0.8529565672422815,"{'C': 1, 'kernel': 'linear'}",Tuned
+Under-sampled Data,Decision Tree,0.8641774891774892,0.8675461741424803,"{'criterion': 'gini', 'max_depth': 10}",Tuned
+Under-sampled Data,Random Forest,0.8674242424242424,0.8733850129198967,"{'max_depth': 10, 'n_estimators': 100}",Tuned
+Over-sampled Data,SVM,0.88,0.8868458274398868,"{'C': 10, 'kernel': 'rbf'}",Tuned
+Over-sampled Data,Decision Tree,0.89025,0.8937303316388284,"{'criterion': 'entropy', 'max_depth': 10}",Tuned
+Over-sampled Data,Random Forest,0.9095,0.9114481409001957,"{'max_depth': 20, 'n_estimators': 200}",Tuned
